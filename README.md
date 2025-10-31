@@ -121,7 +121,7 @@ The model was trained exclusively on original (8-bit) images and then tested on 
 
 ### Visual Comparison
 
-![Accuracy Comparison](images/accuracy_comparison.png)
+![Accuracy Comparison](images/Accuracy%20barplot.png)
 *Figure 1: Classification accuracy across different image degradation techniques*
 
 ### Key Findings
@@ -139,13 +139,18 @@ The model was trained exclusively on original (8-bit) images and then tested on 
 
 ### Confusion Matrices
 
-![Confusion Matrices](images/confusion_matrices.png)
+![Confusion Matrices](images/Confusion%20Matrix.png)
 *Figure 2: Normalized confusion matrices showing prediction patterns across all test conditions*
 
-### Visual Examples
+### Dataset Sample
 
-![Dithering Comparison](images/dithering_examples.png)
-*Figure 3: Visual comparison of original and degraded images showing the effect of each technique*
+![Dataset Classes](images/Classes%20img.png)
+*Figure 3: Sample images from each of the 5 object classes in the dataset*
+
+### Visual Examples of Degradation
+
+![Dithering Comparison](images/Modified%20img.png)
+*Figure 4: Visual comparison of original and degraded images showing the effect of each quantization and dithering technique*
 
 ## 🔍 Discussion
 
