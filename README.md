@@ -37,12 +37,21 @@ The CNN consists of:
 
 ## 📦 Requirements
 
+- Python 3.8 or higher
+- See `requirements.txt` for the full list of dependencies
+
+### Installation
+
+Install all required packages using pip:
+
+```bash
+pip install -r requirements.txt
 ```
-numpy
-matplotlib
-scikit-learn
-tensorflow
-seaborn
+
+Or install packages individually:
+
+```bash
+pip install numpy matplotlib scikit-learn tensorflow seaborn jupyter
 ```
 
 ## 🚀 Usage
@@ -73,4 +82,4 @@ Lorenzo Comis
 
 ## 📄 License
 
-This project is available for educational purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
